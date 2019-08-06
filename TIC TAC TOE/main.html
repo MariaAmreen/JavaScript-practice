@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Tic Tac Toe
+		</title>
+		<link rel="stylesheet" type="text/css" href="game.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	</head>
+
+	<body>
+		<div class = "container">
+			<div class = "jumbotron">
+				<h1>Welcome to tic tac toe!</h1>
+				<p>Get ready to play</p>
+				<button id = 'b' type = "button" class = "btn btn-primary btn-lg" name = "button">Restart</button>
+			</div>
+			<table id="dashboard" align = 'center'>
+				<tr>
+					<td id="r1" onclick = "printx('1')"></td>
+					<td id="r2" onclick = "printx('2')"></td>
+					<td id="r3" onclick = "printx('3')"></td>
+				</tr>
+				<tr>
+					<td id="r4" onclick = "printx('4')"></td>
+					<td id="r5" onclick = "printx('5')"></td>
+					<td id="r6" onclick = "printx('6')"></td>
+				</tr>
+				<tr>
+					<td id="r7" onclick = "printx('7')"></td>
+					<td id="r8" onclick = "printx('8')"></td>
+					<td id="r9" onclick = "printx('9')"></td>
+				</tr>
+			</table>
+		</div>
+		<script src="js/jquery-3.4.1.min.js"  type="text/javascript" ></script>
+		<script src="js/bootstrap.js"  type="text/javascript" ></script>
+		<script src="myscript.js"  type="text/javascript" ></script>
+	</body> 
+</html>

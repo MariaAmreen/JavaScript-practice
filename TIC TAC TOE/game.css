@@ -1,0 +1,23 @@
+.jumbotron{
+	background: url(image.jpg);
+	background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-position: right;
+
+    
+}
+td{
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	border: 5px solid bleck;
+	border-radius: 20px;
+	font-size: 50px;
+	background-color: #C0C0C0;
+}
+
+#dashboard{
+	background: black;
+}
+
